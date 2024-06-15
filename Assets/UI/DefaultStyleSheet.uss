@@ -1,0 +1,56 @@
+.body {
+    color: rgb(255, 255, 255);
+}
+
+.unity-base-field__input {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+DropdownField .unity-base-field__input {
+    background-color: rgb(255, 255, 255);
+    margin-left: 25%;
+}
+
+DropdownField .unity-text-element {
+    color: rgb(0, 0, 0);
+}
+
+DropdownField .unity-label {
+    color: rgb(255, 255, 255);
+}
+
+SliderInt .unity-base-field__input {
+    color: rgb(0, 0, 0);
+    margin-left: 25%;
+}
+
+Button {
+    height: 48px;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+#unity-text-input {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: rgb(0, 0, 0);
+}

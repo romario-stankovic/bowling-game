@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="PlayerField" style="flex-grow: 0; flex-direction: row;">
+        <ui:TextField picking-mode="Ignore" value="filler text" name="TextField" style="flex-grow: 1; height: 36px; margin-top: 0; margin-right: 0; margin-bottom: 8px; margin-left: 0;" />
+        <ui:Button text="Remove" parse-escape-sequences="true" display-tooltip-when-elided="true" focusable="false" style="height: 36px; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 8px;" />
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/DefaultStyleSheet.uss?fileID=7433441132597879392&amp;guid=47a6c5750ae0791418fcc893e2076cf9&amp;type=3#DefaultStyleSheet" />
+    <ui:VisualElement name="Body" class="body" style="flex-grow: 1; display: flex; visibility: visible; overflow: visible; opacity: 1;">
+        <ui:VisualElement name="Panel" style="flex-grow: 1; width: 1000px; height: auto; justify-content: flex-start; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; background-color: rgba(0, 0, 0, 0.5); flex-basis: auto; flex-direction: column; flex-wrap: nowrap; position: absolute; left: 50%; top: 50%; right: auto; translate: -50% -50%; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+            <ui:Label tabindex="-1" text="Game Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="justify-content: flex-start; align-items: stretch; -unity-text-align: upper-center; font-size: 28px; -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-bottom: 16px; margin-left: 0;" />
+            <ui:VisualElement name="Fields" style="flex-grow: 1; padding-left: 0; padding-right: 0; padding-bottom: -1px;">
+                <ui:DropdownField label="Number of pins:" name="pinConfigurationDropdown" focusable="false" style="-unity-text-align: upper-left; -unity-font-style: normal; color: rgb(255, 255, 255); font-size: 18px;" />
+                <ui:DropdownField label="Ball size:" name="ballSizeDropdown" focusable="false" style="-unity-text-align: upper-left; color: rgb(255, 255, 255); font-size: 18px;" />
+                <ui:SliderInt label="No. Rounds:" high-value="10" name="roundSlider" low-value="1" show-input-field="true" focusable="false" style="color: rgb(255, 255, 255); font-size: 18px;" />
+            </ui:VisualElement>
+            <ui:Label tabindex="-1" text="Players" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="justify-content: flex-start; align-items: stretch; -unity-text-align: upper-center; font-size: 28px; -unity-font-style: bold; margin-top: 0; margin-right: 0; margin-bottom: 16px; margin-left: 0;" />
+            <ui:VisualElement name="playerListView" focusable="false" style="flex-grow: 1; height: 265px; margin-bottom: 0; flex-direction: column; min-height: auto;" />
+            <ui:Button text="+ Add Player" parse-escape-sequences="true" display-tooltip-when-elided="true" name="addPlayerButton" enable-rich-text="true" style="height: 36px; width: auto; align-self: auto; margin-top: 0; margin-right: 0; margin-bottom: 16px; margin-left: 0; font-size: 18px;" />
+            <ui:VisualElement name="Actions" style="flex-grow: 0; flex-direction: row; justify-content: space-around; align-self: flex-end; width: 100%; height: auto; margin-bottom: 0;">
+                <ui:Button text="Start Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="startGameButton" class="button" style="font-size: 18px;" />
+                <ui:Button text="How to Play?" parse-escape-sequences="true" display-tooltip-when-elided="true" name="helpButton" class="button" style="font-size: 18px;" />
+                <ui:Button text="Quit Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="exitGameButton" class="button" style="font-size: 18px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

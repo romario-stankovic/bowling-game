@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/DefaultStyleSheet.uss?fileID=7433441132597879392&amp;guid=47a6c5750ae0791418fcc893e2076cf9&amp;type=3#DefaultStyleSheet" />
+    <ui:VisualElement name="Body" class="body" style="flex-grow: 1; display: flex; visibility: visible; overflow: visible; opacity: 1;">
+        <ui:VisualElement name="Panel" style="flex-grow: 1; width: 1000px; height: auto; justify-content: flex-start; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; background-color: rgba(0, 0, 0, 0.5); flex-basis: auto; flex-direction: column; flex-wrap: nowrap; position: absolute; left: 50%; top: 50%; right: auto; translate: -50% -50%; padding-top: 16px; padding-right: 16px; padding-bottom: 16px; padding-left: 16px; border-top-left-radius: 16px; border-top-right-radius: 16px; border-bottom-right-radius: 16px; border-bottom-left-radius: 16px;">
+            <ui:Label tabindex="-1" text="Game Over" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Title" style="font-size: 28px; color: rgb(255, 255, 255); -unity-text-align: upper-center; -unity-font-style: bold;" />
+            <ui:Label tabindex="-1" text="Player has Won!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="winner" style="font-size: 28px; color: rgb(255, 255, 255); -unity-text-align: upper-center; -unity-font-style: bold; margin-top: 60px; margin-bottom: 60px;" />
+            <ui:VisualElement name="Actions" style="flex-grow: 0; flex-direction: row; justify-content: space-around; align-self: flex-end; width: 100%; height: auto; margin-bottom: 0;">
+                <ui:Button text="Play Again!" parse-escape-sequences="true" display-tooltip-when-elided="true" name="playAgainButton" class="button" style="font-size: 18px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
